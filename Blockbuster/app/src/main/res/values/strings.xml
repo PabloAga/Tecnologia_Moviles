@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="App_name">Blockbuster</string>
+    <string name="Bienvenida">Bienvenido al Blockbuster</string>
+    <string name="Usuario">Usuario</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="Butoon">Iniciar</string>
+    <string name="ToolUsuario">Ingresar usuario</string>
+    <string name="ToolPassword">Ingresar contraseña</string>
+    <string name="Ingresar">Ingresar</string>
+    <string name="ErrorLogin">Usuario o contraseña incorrecto/a</string>
+    <string name="correo">Correo</string>
+    <string name="ingreseUsuario">Ingresar Usuario</string>
+    <string name="ingreseContrasena">Ingresar Contraseña</string>
+    <string name="ingreseCorreo">Ingresar Correo</string>
+    <string name="crear">Crear</string>
+    <string name="registrar">Registrar</string>
+</resources>

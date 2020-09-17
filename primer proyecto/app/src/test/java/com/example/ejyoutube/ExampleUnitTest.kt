@@ -1,4 +1,4 @@
-package com.example.primeraapp
+package com.example.ejyoutube
 
 import org.junit.Test
 
