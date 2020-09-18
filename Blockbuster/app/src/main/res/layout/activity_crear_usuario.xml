@@ -6,7 +6,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/Usuario"
+        android:text="@string/usuario"
         style="@style/textoCentradoM"/>
 
     <EditText
@@ -20,7 +20,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/Contraseña"
+        android:text="@string/contraseña"
         style="@style/textoCentradoM"/>
 
     <EditText

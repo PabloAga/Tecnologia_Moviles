@@ -10,7 +10,7 @@
     <dimen name="imageL">30dp</dimen>
     <dimen name="textH">35dp</dimen>
     <dimen name="textM">20dp</dimen>
-    <dimen name="textL">15dp</dimen>
+    <dimen name="textL">20dp</dimen>
     <dimen name="textUL">12dp</dimen>
     <dimen name="marginL">5dp</dimen>
     <dimen name="marginM">15dp</dimen>
