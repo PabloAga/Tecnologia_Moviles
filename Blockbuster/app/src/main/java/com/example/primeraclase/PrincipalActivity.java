@@ -7,30 +7,30 @@ import android.widget.Button;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-public class PrincipalActivity extends AppCompatActivity {
 
+public class PrincipalActivity  extends AppCompatActivity {
     static final int PICK_CONTACT_REQUEST = 1;
-    private Button btnIniciar;
-
+   // private Button btnRegistrar;
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_principal);
 
-        btnIniciar = findViewById(R.id.init_button);
 
-        btnIniciar.setOnClickListener(new View.OnClickListener() {
+       // btnRegistrar = findViewById(R.id.btnAgregarUsuario);
+
+       /* btnRegistrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                crearUsuario();
+                registrarUsuario();
             }
-        });
+        });*/
     }
 
 
-    private void crearUsuario() {
-        Intent RegistrarUsuario = new Intent(PrincipalActivity.this, RegistrarUsuarioActivity.class);
+   /* private void registrarUsuario() {
+        Intent RegistrarUsuario = new Intent(RegistrarUsuarioActivity.this, LoginActivity.class);
         startActivity(RegistrarUsuario);
-    }
+    }*/
 }

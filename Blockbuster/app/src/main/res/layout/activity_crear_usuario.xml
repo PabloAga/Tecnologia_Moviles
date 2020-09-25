@@ -7,12 +7,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/usuario"
+        android:textColor="@color/blanco"
         style="@style/textoCentradoM"/>
 
     <EditText
         android:id="@+id/nuevoUsuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/blanco"
         android:hint="@string/ingreseUsuario"
         style="@style/inputText"
         />
@@ -21,6 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/contraseña"
+        android:textColor="@color/blanco"
         style="@style/textoCentradoM"/>
 
     <EditText
@@ -29,12 +32,14 @@
         android:layout_height="wrap_content"
         android:hint="@string/ingreseContrasena"
         android:inputType="textPassword"
+        android:textColor="@color/blanco"
         style="@style/inputText"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/correo"
+        android:textColor="@color/blanco"
         style="@style/textoCentradoM"/>
 
     <EditText
@@ -43,6 +48,7 @@
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
         android:hint="@string/ingreseCorreo"
+        android:textColor="@color/blanco"
         style="@style/inputText"/>
 
     <View

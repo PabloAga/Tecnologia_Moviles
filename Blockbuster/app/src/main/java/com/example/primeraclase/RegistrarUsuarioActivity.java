@@ -31,7 +31,7 @@ public class RegistrarUsuarioActivity extends AppCompatActivity {
 
 
     private void registrarUsuario() {
-        Intent RegistrarUsuario = new Intent(RegistrarUsuarioActivity.this, PrincipalActivity.class);
+        Intent RegistrarUsuario = new Intent(RegistrarUsuarioActivity.this, LoginActivity.class);
         startActivity(RegistrarUsuario);
     }
 }

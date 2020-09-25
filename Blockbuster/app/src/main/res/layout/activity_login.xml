@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:weightSum="1"
+android:background="@color/background"
+tools:context=".LoginActivity">
+
+
+<ImageView
+    android:id="@+id/imagenprincipal"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:src="@drawable/logo"
+    tools:src="@drawable/logo"
+    android:layout_gravity="center"
+    android:layout_marginTop="50dp"/>
+
+
+
+    <EditText
+        android:id="@+id/edit_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/marginH"
+        android:fontFamily="sans-serif-black"
+        android:hint="@string/usuario"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textSize="@dimen/textH" />
+
+    <EditText
+        android:id="@+id/edit_contrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/marginH"
+        android:fontFamily="sans-serif-black"
+        android:hint="@string/contraseña"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        android:textSize="@dimen/textH"/>
+
+    <Button
+        android:id="@+id/iniciar_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/butoon"
+        android:text="@string/butoon"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textM"
+        android:layout_marginTop="@dimen/marginL"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_marginStart = "@dimen/marginM"
+        android:layout_marginEnd="@dimen/marginM"/>
+    <Button
+        android:id="@+id/btnCrearUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear usuario"
+        android:textSize="@dimen/textL"
+        android:textColor="@color/blanco"
+        android:layout_marginTop="@dimen/marginL"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_marginStart = "@dimen/marginM"
+        android:layout_marginEnd="@dimen/marginM"
+        />
+</LinearLayout>
