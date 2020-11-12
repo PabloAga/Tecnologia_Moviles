@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ListaCategorias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blanco"
+        android:layout_margin="@dimen/marginL"
+        android:fadingEdge="horizontal"
+        android:fadingEdgeLength="20dp"
+        android:fillViewport="false"
+        android:requiresFadingEdge="vertical"/>
+
+    <Button
+        android:id="@+id/btnAgregarCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/agregarCategoria"
+        style="@style/BotonAgregar"
+        android:layout_marginBottom="@dimen/marginM"/>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:elevation="5dp"
+android:background="@android:color/black"
+android:padding="@dimen/marginL"
+android:layout_marginStart="@dimen/marginM"
+android:layout_marginEnd="@dimen/marginM"
+android:layout_marginBottom="@dimen/marginM"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:textColor="@color/negro"
+    android:layout_marginTop="@dimen/marginL"
+    >
+
+
+    <TextView
+        android:id="@+id/nombreCategoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/blanco"
+        android:textSize="@dimen/textM"/>
+
+    <CheckBox
+        android:id="@+id/checkCategoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+    />
+
+</LinearLayout>
+
+</LinearLayout>

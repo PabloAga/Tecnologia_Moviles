@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:orientation="vertical"
 android:weightSum="1"
-android:background="@color/background">
+android:background="@color/background"
+tools:context=".activity.LoginActivity">
 
 
 <ImageView
-    android:id="@+id/imagenprincipal"
+    android:id="@+id/imagenprincipal2"
     android:layout_width="match_parent"
     android:layout_height="150dp"
     android:src="@drawable/logo"
@@ -19,10 +19,9 @@ android:background="@color/background">
     android:layout_marginTop="50dp"/>
 
 
-    <FrameLayout
-        android:id="@+id/FragmentListaUsuarios"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/blanco"
-        android:layout_marginTop="@dimen/marginM"/>
+<FrameLayout
+    android:id="@+id/FragmentListaCategorias"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/marginM"/>
 </LinearLayout>

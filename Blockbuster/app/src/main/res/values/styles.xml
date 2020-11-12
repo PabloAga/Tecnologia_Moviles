@@ -1,4 +1,5 @@
 <resources>
+
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
@@ -6,6 +7,13 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 
     <style name="inputText">
         <item name ="android:layout_width">match_parent</item>
@@ -36,6 +44,25 @@
         <item name="android:layout_marginStart">@dimen/marginM</item>
         <item name="android:layout_marginEnd">@dimen/marginM</item>
         <item name="android:layout_marginTop">@dimen/marginH</item>
+
+    </style>
+    <style name="BotonAceptar" parent="TextAppearance.AppCompat.Widget.Button.Colored">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/butoon</item>
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:layout_marginStart">@dimen/marginM</item>
+        <item name="android:layout_marginEnd">@dimen/marginM</item>
+        <item name="android:layout_marginTop">@dimen/marginH</item>
+    </style>
+    <style name="BotonBorrar" parent="TextAppearance.AppCompat.Widget.Button.Colored">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/red</item>
+        <item name="android:textColor">@color/blanco</item>
+        <item name="android:layout_marginStart">@dimen/marginM</item>
+        <item name="android:layout_marginEnd">@dimen/marginM</item>
+        <item name="android:layout_marginTop">@dimen/marginL</item>
 
     </style>
 </resources>

@@ -17,6 +17,6 @@
 
   <item
       android:id="@+id/navigation_menu"
-      android:icon="@drawable/ic_menu"
-      android:title="menu" />
+      android:icon="@drawable/ic_logout"
+      android:title="cerrar sesion" />
 </menu>
