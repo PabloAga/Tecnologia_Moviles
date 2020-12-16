@@ -155,6 +155,7 @@ public class FragmentHome extends Fragment {
                 while (reader.hasNext()) {
                     movie=readTitleMovie(reader,id);
                     if(movie.image!=null){
+                        Log.i("movie de arrray", movies.toString());
                         movies.add (movie);
                         id++;
                     }
@@ -179,11 +180,13 @@ public class FragmentHome extends Fragment {
             if (name.equals("title")) {
                 movie.id=id;
                 movie.movieName= reader.nextString();
+                Log.i("peliculas de accion", movie.movieName);
             } else if (name.equals("poster_path")&& reader.peek() != JsonToken.NULL) {
                 movie.image = "https://image.tmdb.org/t/p/w500"+reader.nextString();
+                Log.i("portada peliculas", movie.image);
                 id++;
             }else {
-                movie.image = null;
+                //movie.image = null;
                 id++;
                 reader.skipValue();
             }
@@ -218,7 +221,7 @@ public class FragmentHome extends Fragment {
             accion.id = 1;
             accion.categoriaName = "Accion";
             accion.movies = s.get(0);
-
+            Log.i("todas las peliculas", s.toString());
             Categoria comedia= new Categoria();
             comedia.id = 1;
             comedia.categoriaName = "Comedia";

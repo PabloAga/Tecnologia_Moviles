@@ -1,6 +1,7 @@
 package com.example.primeraclase.activity.Adapters;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -34,10 +35,12 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.CustomView
     //el metodo onBindViewHolder() este itera cada pelicula.
     @Override
     public void onBindViewHolder(CustomViewHolder holder, int position) {
-        Movie chapter = chapters.get(position);
+        Movie movie;
+        movie = chapters.get(position);
 
-        holder.tvChapterName.setText(chapter.movieName);
-        Picasso.get().load(chapter.image).into(holder.ivChapter);
+        holder.tvChapterName.setText(movie.movieName);
+        Log.i("url portada", movie.image);
+        Picasso.get().load(movie.image).into(holder.ivChapter);
 
     }
 

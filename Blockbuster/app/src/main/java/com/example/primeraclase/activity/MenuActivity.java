@@ -127,9 +127,6 @@ public class MenuActivity extends AppCompatActivity implements NavigationView.On
                 .setPositiveButton(R.string.ACEPTAR, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         android.content.Context context = MenuActivity.this.getApplicationContext();
-
-
-
                         if(!Context.getUsuarioBusiness().setCurrentUser(null))
                             return;
                         Intent i = new Intent(MenuActivity.this,LoginActivity.class);
